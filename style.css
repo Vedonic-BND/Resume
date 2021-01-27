@@ -1,0 +1,245 @@
+/* GLOBAL STYLES */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Monserrat", sans-serif;
+	background-color: rgba(242,243,244,0.8);
+	overflow-x: hidden; 
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 122.5rem;
+	margin: 0 auto;
+	padding: 0 2.4rem;
+}
+
+.container-fluid{
+	width: 100%;
+	max-width: 95%;
+	margin: 0 auto;
+	padding: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+/* HEADER/NAVIGATION */
+.header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 9rem;
+	background-color: rgba(9,9,9,0.8);
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.nav-list {
+	list-style: none;
+	font-size: 2rem;
+	display: flex;
+	margin-right: 3rem;
+}
+
+.nav-item {
+	text-align: center;
+	margin-right: 1.5rem;
+	margin-left: 1.5rem;
+	cursor: pointer;
+}
+
+.nav-item-attrib {
+	color: white;
+	font-size: 17px;
+	font-family: "Cormorant Garamond";
+}
+
+.nav-item-attrib:hover {
+	color: #c95d5f;
+	transition: 1s;
+}
+
+
+/* CONTENT */
+.content-card {
+	background-color: white;
+	width: 50%;
+	margin: 15rem auto;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,0.5);
+	border-radius: 10px;
+	padding-bottom: 5rem;
+}
+
+.content-card-header {
+	text-align: center;
+}
+
+.two-by-two-picture {
+	height: 300px;
+	border-radius: 50%;
+	margin-top: 5rem;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,0.1);
+}
+
+hr {
+	width: 70%;
+	margin: 1rem auto 1rem auto;
+	border-top: 1px dashed #c95d5f;
+}
+
+.name {
+	color: #ff7417;
+	text-align: center;
+	font-family: "Cormorant Garamond";
+	font-size: 3rem;
+	font-weight: bold;
+	text-shadow: 1px 1px 3px #FF0000;
+	-webkit-text-stroke-width: 0.4px;
+	-webkit-text-stroke-color: black;
+}
+
+.basic-info {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #000;
+}
+
+.email {
+	text-decoration: underline;
+	color: black;
+}
+
+.email:hover {
+	text-decoration: none;
+	color: #ff7417;
+	transition: 1s;
+}
+
+h3 {
+	color: #ff7417;
+	font-family: "Cormorant Garamond";
+	font-size: 3rem;
+	margin-top: 5rem;
+	font-weight: 300;
+	margin-bottom: 2rem;
+}
+
+.career-paragraph {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.table {
+	font-size: 1.2rem;
+	font-weight: 300;
+	margin: auto auto;
+	box-shadow: 0 0 3rem rgba(0,0,0,0.1);
+}
+
+td {
+	width: 200px;
+	height: 50px;
+	box-shadow: 0 0 3rem rgba(0,0,0,0.1);
+}
+
+
+/* EDUCATIONAL ATTAINMENT */
+.educ-content-card {
+	width: 70%;
+}
+
+.table-educ {
+	margin-top: -2rem;
+	width: 90%;
+}
+
+.level {
+	width: 100px;
+}
+
+.educ-paragraph {
+	margin: 1rem;
+}
+
+.school-logo {
+	height: 100px;
+	margin: 1rem;
+}
+
+.td-logo {
+	width: 100px;
+}
+
+/* KEY SKILLS */
+.keyskills-paragraph {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.hr-keyskills {
+	width: 100%;
+}
+
+/* CHARACTER REFERENCE */
+.char-ref-image {
+	height: 150px;
+	border-radius: 50%;
+	margin-top: 5rem;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,0.1);
+}
+
+.first-char-ref-image {
+	margin-top: 1rem;
+}
+
+.char-ref-name {
+	color: #ff7417;
+	font-family: "Cormorant Garamond";
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.char-ref-paragraph {
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+/* FOOTER */
+.footer {
+	position: fixed;
+	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	margin-top: 3rem;
+    height: 10vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #afafaf;
+    font-size: 1.5rem;
+    text-align: center;
+}
